@@ -1,0 +1,7 @@
+{
+  "host" : "127.0.0.1",
+  "port" : "55123",
+  "backlog" : "100",
+  "maxPayload" : "1000",
+  "max_clients" : 1000
+}

@@ -1,0 +1,21 @@
+{
+  "name": "fdcorp-messager-server",
+  "version": "1.0.0",
+  "description": "The fdcorp messager server.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": "https://github.com/ragmon/fdcorp-messager-server",
+  "keywords": [
+    "websocket",
+    "server"
+  ],
+  "author": "Arthur Ragimov",
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "ws": "^6.2.0"
+  }
+}

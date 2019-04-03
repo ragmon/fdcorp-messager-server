@@ -1,0 +1,9 @@
+// available range: 4000 - 4999
+
+const SERVER_STOPPING = 4000;
+const SERVER_ACTIVE_CONNECTIONS_EXCEEDED = 4001;
+
+module.exports = {
+    SERVER_STOPPING,
+    SERVER_ACTIVE_CONNECTIONS_EXCEEDED
+};
