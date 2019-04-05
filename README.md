@@ -23,6 +23,14 @@ sudo apt-get update \
 
 ### settings.json
 
+* `host` - websocket server host
+* `port` - websocket server port
+* `backlog` - the maximum length of the queue of pending connections
+* `maxPayload` - the maximum allowed message size in bytes
+* `max_clients` - max clients active connections
+
+Example:
+
 ```
 {
   "host" : "127.0.0.1",
